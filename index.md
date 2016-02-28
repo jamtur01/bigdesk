@@ -31,7 +31,7 @@ In simple words **bigdesk** makes it very easy to see how your Elasticsearch clu
 
 It pulls data from Elasticsearch REST API and turns it into charts.
 
-Don't forget to check Elasticsearch [support matrix](https://github.com/lukas-vlcek/bigdesk#support-matrix) to install correct version of Bigdesk.
+Don't forget to check the Elasticsearch [support matrix](https://github.com/lukas-vlcek/bigdesk#support-matrix) to install the correct version of Bigdesk.
 
 <div>
 <a href="https://twitter.com/bigdesk_" class="twitter-follow-button" data-show-count="false">Follow @bigdesk_</a>
@@ -42,19 +42,19 @@ Don't forget to check Elasticsearch [support matrix](https://github.com/lukas-vl
 
 ### Elasticsearch plugin
 
-To install Bigdesk **master** branch as an [Elasticsearch plugin](http://www.elasticsearch.org/guide/reference/modules/plugins.html) on a particular Elasticsearch node, navigate to the node installation folder and run the following command:
+To install Bigdesk from the **master** branch as an [Elasticsearch plugin](http://www.elasticsearch.org/guide/reference/modules/plugins.html) on a particular Elasticsearch node, navigate to the node installation folder and run the following command:
 
-	bin/plugin -install lukas-vlcek/bigdesk
+	bin/plugin install lukas-vlcek/bigdesk
 
 To install a specific version (for example **2.4.0**) run:
 
-	bin/plugin -install lukas-vlcek/bigdesk/2.4.0
+	bin/plugin install lukas-vlcek/bigdesk/2.4.0
 
 Then you can navigate your web browser to `http://<elasticsearch_REST_endpoint>/_plugin/bigdesk/`
 
 *****
 
-### download locally
+### Download locally
 
 You can either download and extract Bigdesk archive:
 
@@ -71,11 +71,11 @@ Or you can clone the git repository from GitHub:
 
 	git clone git://github.com/lukas-vlcek/bigdesk.git bigdesk
 
-Then simply open `bigdesk/index.html` in your web broswer.
+Then simply open `bigdesk/index.html` in your web browser.
 
 *****
 
-### online from the web
+### Online from the web
 
 You can also run Bigdesk directly from the web without needing to install it. Just [select the version](v) you want to use and you are ready to go.
 
@@ -103,7 +103,7 @@ For example, to open Bigdesk and have it connect to `http://127.0.0.1:9201` endp
 
 Check [here](https://github.com/lukas-vlcek/bigdesk/blob/0.18.x/README.textile) about supported URL parameters by bigdesk 1.0.0. 
 
-### web browser support
+### Web browser support
 
-A modern web browsers with SVG support is needed. It has been tested in Safari, Firefox and Chrome.
+A modern web browser with SVG support is needed. It has been tested in Safari, Firefox and Chrome.
 
